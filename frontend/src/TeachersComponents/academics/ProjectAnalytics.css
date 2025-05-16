@@ -1,0 +1,88 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .heading {
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #051f3e;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .card-header h3 {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .card-header span {
+    font-size: 1.5rem;
+  }
+  
+  .completion {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .task-status p {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin: 0.5rem 0;
+  }
+  
+  .progress-bar {
+    background: #e5e7eb;
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #10b981;
+    transition: width 0.4s ease;
+  }
+  
+  .gold {
+    background: #fffbea;
+    border-color: #facc15;
+  }
+  
+  .silver {
+    background: #f9fafb;
+    border-color: #d1d5db;
+  }
+  
+  .bronze {
+    background: #fff7ed;
+    border-color: #fdba74;
+  }
+  
